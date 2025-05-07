@@ -96,6 +96,7 @@ graph TD
     Server -->|Response| Client
     Server -->|Processes| Database
     Database -->|Returns Data| Server
+```
 
 ## 🧪 Examples
 
