@@ -90,9 +90,12 @@ Java-Networking/
 
 ## 📊 Network Flow Diagram
 
-<p align="center">
-  <img src="https://mermaid.ink/img/pako:eNptkc9qwzAMh1_F-JRCYHuAPYbRboc1dMnFcpSa1LGx5I2S0tL03TenheKx-iD0-_RJ1ggfNkAGFTg_u-BRXeGXtKRVlUPJjW9JQfW4B8ooqG6qGqpL07SfUlY918qzf4NuazXL3k3AvWOcwx73hOsLwUUjUqbSWa4ckJUphHBc7KjY-rPsxLQYPHWzD10Dx5GdVPa7wTCz8_Gxc9a7nSoVr2vSPR0M_sfmRNxwn-_GrJPJpDLUxXqeC8x1wovpO0eFnLfcRmJFznnNpgkj8WZjp-i7P7_Hqx_r1WMG0VLPGTgxdMY1LTTkyGo8pyqEV3I25GZgRwrZ29hwgUyGIyXYTDGDEXsOFFYZ_AFZ-YCO" alt="Network Flow">
-</p>
+```mermaid
+graph TD
+    Client -->|Request| Server
+    Server -->|Response| Client
+    Server -->|Processes| Database
+    Database -->|Returns Data| Server
 
 ## 🧪 Examples
 
